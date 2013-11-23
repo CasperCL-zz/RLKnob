@@ -21,6 +21,7 @@
 		AFF756E118413ED50095C4A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF756C318413ED50095C4A9 /* UIKit.framework */; };
 		AFF756E918413ED50095C4A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFF756E718413ED50095C4A9 /* InfoPlist.strings */; };
 		AFF756EB18413ED50095C4A9 /* RLKnobDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF756EA18413ED50095C4A9 /* RLKnobDemoTests.m */; };
+		AFF756F718413F2E0095C4A9 /* RLKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF756F618413F2E0095C4A9 /* RLKnob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AFF756E618413ED50095C4A9 /* RLKnobDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RLKnobDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AFF756E818413ED50095C4A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFF756EA18413ED50095C4A9 /* RLKnobDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLKnobDemoTests.m; sourceTree = "<group>"; };
+		AFF756F518413F2E0095C4A9 /* RLKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLKnob.h; sourceTree = "<group>"; };
+		AFF756F618413F2E0095C4A9 /* RLKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLKnob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		AFF756C518413ED50095C4A9 /* RLKnobDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AFF756F418413F2E0095C4A9 /* RLKnob */,
 				AFF756CE18413ED50095C4A9 /* AppDelegate.h */,
 				AFF756CF18413ED50095C4A9 /* AppDelegate.m */,
 				AFF756D118413ED50095C4A9 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				AFF756E718413ED50095C4A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFF756F418413F2E0095C4A9 /* RLKnob */ = {
+			isa = PBXGroup;
+			children = (
+				AFF756F518413F2E0095C4A9 /* RLKnob.h */,
+				AFF756F618413F2E0095C4A9 /* RLKnob.m */,
+			);
+			path = RLKnob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 				AFF756D618413ED50095C4A9 /* ViewController.m in Sources */,
 				AFF756D018413ED50095C4A9 /* AppDelegate.m in Sources */,
 				AFF756CC18413ED50095C4A9 /* main.m in Sources */,
+				AFF756F718413F2E0095C4A9 /* RLKnob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				AFF756F018413ED50095C4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFF756F118413ED50095C4A9 /* Build configuration list for PBXNativeTarget "RLKnobDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				AFF756F318413ED50095C4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

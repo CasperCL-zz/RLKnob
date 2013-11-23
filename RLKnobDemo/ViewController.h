@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RLKnob.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <RLKnobDelegate, UITextFieldDelegate> {
+    
+    __weak IBOutlet RLKnob *slider;
+    
+    __weak IBOutlet UIView *embedView;
+    
+    __weak IBOutlet UITextField *fromTextfield;
+    __weak IBOutlet UITextField *toTexfield;
+    
+    __weak IBOutlet UILabel *valueChangedLabel;
+    __weak IBOutlet UILabel *valueChangingLabel;
+}
+
 
 @end
