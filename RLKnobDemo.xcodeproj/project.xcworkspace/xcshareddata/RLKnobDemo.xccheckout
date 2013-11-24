@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B9FC48AB-F583-4C92-B65F-A4791AFB6101</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RLKnobDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9DA22B7B-4DD6-42D0-9CD2-7CD32C749FED</key>
+		<string>https://bitbucket.org/jtc/rlknob.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RLKnobDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9DA22B7B-4DD6-42D0-9CD2-7CD32C749FED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jtc/rlknob.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9DA22B7B-4DD6-42D0-9CD2-7CD32C749FED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9DA22B7B-4DD6-42D0-9CD2-7CD32C749FED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RLKnobDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
